@@ -11,7 +11,7 @@ const gameReducer = (state = gridDefault(), action) => {
     case COLOR_GRID_SQUARE:
         const { row, col } = action.payload
         const newGrid2 = [ ...grid ]
-        newGrid2[row][col] = 2
+        newGrid2[row][col] === 7 ? newGrid2[row][col] = 1 : newGrid2[row][col] += 1
         return newGrid2
 
     default:
