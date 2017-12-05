@@ -11,7 +11,7 @@ body {
 }
 
 .app {
-  width: calc((20px + 0px * 2) * 10);
+  width: calc((20px + 0px * 2) * 20);
   margin: auto;
   position: relative;
 }
