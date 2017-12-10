@@ -5,7 +5,7 @@ class GridSquare extends Component {
 
   render () {
     const styles = { backgroundColor: getColor(this.props.color) }
-    return <div onClick={(e) => {
+    return <div onMouseOver={(e) => {
         this.props.onColorChange()
     }} className="grid-square" style={styles}>{this.props.children}</div>
   }

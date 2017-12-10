@@ -34,4 +34,5 @@ body {
   border-radius: 3px;
   display: inline-block;
   text-align: center;
+  user-select: none;
 }

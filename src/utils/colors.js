@@ -6,9 +6,14 @@ export const colors = [
   '#cc00ff',
   '#00ff00',
   '#66ccff',
-  '#ff0000'
+  '#ff0000',
+  '#000000'
 ]
 
 export const getColor = (index) => {
   return colors[index]
+}
+
+export const colorsCount = () => {
+    return colors.length
 }
